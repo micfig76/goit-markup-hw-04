@@ -14,7 +14,20 @@ img {
     display: block;
 }
 
-.top-menu-head .container {
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.top-menu-head {
     display: flex;
     background-color: #E7E9FC;
     text-decoration: none;
@@ -27,12 +40,7 @@ img {
     justify-content: space-between;
     width: 1440px;
     height: 72px;
-}
-
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    margin: auto;
 }
 
 .top-menu {
@@ -101,25 +109,40 @@ img {
 
 }
 
-.motto .container {
+.motto-section {
     background-image: linear-gradient(0deg, #2e2f4299, #2e2f4299), url(/images/people-office1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    display: flex;
+    background-color: #2E2F42;
     height: 600px;
     width: 1440px;
+    display: flex;
+    margin: auto;
+
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative; */
+}
+
+.motto {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    position: relative;
-    padding-top: 188px;
-    padding-bottom: 188px;
+
 }
 
-
 .motto-head {
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     word-wrap: break-word;
     max-width: 496px;
 
@@ -157,24 +180,14 @@ img {
     background-color: #404bbf;
 }
 
-.values {
+.values .container {
+    width: 1128px;
+    height: 104px;
+
     display: flex;
+    flex-direction: column;
     list-style-type: none;
-    padding: 120px 0;
-}
-
-.values-list {
-    display: flex;
-    gap: 24px;
-    list-style-type: none;
-}
-
-.value-one {
-    width: calc((100% - 72px) / 4);
-}
-
-.value-one-head {
-    margin-bottom: 8px;
+    justify-content: center;
 }
 
 .visually-hidden {
@@ -190,19 +203,42 @@ img {
     overflow: hidden;
 }
 
-.team .container {
+.values-list {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.value-one {
+    width: calc((100% - 72px) / 4);
+}
+
+.value-one-head {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.value-one-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.team {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7E9FC;
     line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
-    padding: 120px 0;
-    width: calc((100% - 72px) / 4);
+    width: 1440px;
+    height: 732px;
+
+    /* width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    
-}
-.team {
-    background-color: #404bbf;
+     */
 }
 
 .team-head {
@@ -218,15 +254,14 @@ img {
 
 .team-list {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     list-style-type: none;
     gap: 24px;
-    list-style-type: none;
 }
 
 .team-field {
-    display: flex;
-    flex-direction: column;
+    background-color: #ffffff;
+    width: 264px;
     padding: 32px 0;
 }
 
@@ -275,10 +310,14 @@ img {
     text-align: center;
 }
 
+.team-member {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .values .section {
     padding-top: 120px;
     padding-bottom: 120px;
-
 }
 
 
@@ -310,32 +349,19 @@ img {
     color: #404bbf;
 }
 
-.value-one {
-    font-size: 20px;
-    color: #2E2F42;
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-
-}
-
-.value-one-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-family: 36px;
-}
 
 .portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .portfolio-head {
+    display: flex;
+    justify-content: center;
     margin-bottom: 72px;
-
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .portfolio-slates {
@@ -355,6 +381,7 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    width: 360px;
 
 }
 
