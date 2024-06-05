@@ -406,10 +406,10 @@ img {
 }
 
 .bottom {
-    display: flex;
-    background-color: #2E2F42;
+    background-color: hwb(237 18% 74%);
     padding: 100px 0;
-    align-items: center;
+    width: 1440px;
+    margin: auto;
 }
 
 .bottom-logo {
@@ -425,16 +425,15 @@ img {
     background-color: #2E2F42;
     text-decoration: none;
 }
+
 .bottom-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 120px;
+    list-style-type: none;
 
 }
 
-.bottom-socials {
-display: flex;
-flex-direction: column;
-
-align-items: center;
-}
 .bottom-logo-colour {
     color: #F4F4FD;
 
@@ -449,16 +448,18 @@ align-items: center;
     text-wrap: wrap;
 }
 
-.socials {
+.bottom-socials {
     display: flex;
- 
-
-    
+    align-items: flex-start;
 }
 
 .bottom-socials-head {
-   display: flex;
-   justify-content: center;
-    padding-bottom: 64px;
+    display: flex;
+    justify-content: start;
+    padding-bottom: 32px;
     color: #F4F4FD;
+}
+
+.socials {
+    display: flex;
 }
