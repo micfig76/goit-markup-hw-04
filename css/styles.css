@@ -236,11 +236,7 @@ img {
     background-color: #F4F4FD;
     align-items: center;
     margin-bottom: 8px;
-}
-
-.icon {
-    /* width: 64px;
-    height: 64px; */
+    height: 112px;
 }
 
 .values-list {
