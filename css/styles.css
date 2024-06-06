@@ -238,10 +238,6 @@ img {
     margin-bottom: 8px;
     height: 112px;
 }
-.icon .icon-diagram {
-    width: 64px;
-    height: 64px;
-}
 
 .values-list {
     display: flex;
