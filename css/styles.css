@@ -227,7 +227,7 @@ img {
     overflow: hidden;
 }
 
-.icons {
+.icons-values {
     display: flex;
     justify-content: center;
     border: 1px solid #8E8F99;
