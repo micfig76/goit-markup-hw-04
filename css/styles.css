@@ -265,12 +265,15 @@ img {
     font-size: 16px;
 }
 
+.section-three {
+    background-color: #E7E9FC;
+}
+
 .team {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #E7E9FC;
     line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
