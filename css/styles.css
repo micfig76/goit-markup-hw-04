@@ -204,6 +204,11 @@ img {
     background-color: #404bbf;
 }
 
+.values .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .values .container {
     width: 1128px;
     height: 104px;
@@ -269,18 +274,11 @@ img {
     line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
-    width: 1440px;
-    height: 732px;
-
-    /* width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-     */
 }
 
 .team-head {
     display: flex;
     justify-content: center;
-    line-height: 40px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -351,10 +349,6 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
-.values .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 
 .first {
@@ -433,8 +427,7 @@ img {
 .bottom {
     background-color: hwb(237 18% 74%);
     padding: 100px 0;
-    width: 1440px;
-    margin: auto;
+    margin: 0;
 }
 
 .bottom-logo {
