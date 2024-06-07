@@ -341,12 +341,12 @@ img {
 fill: #F4F4FD;
 }
 
-.icon-facebook:hover {
+.elipse:hover {
     background-color: #404bbf;
 
 }
-.icon-facebook:focus {
-
+.elipse:focus {
+    background-color: #404bbf;
 }
 
 .team-one-head {
