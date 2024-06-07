@@ -312,7 +312,7 @@ img {
 .socials {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 24px;
 
     margin: 0;
     padding: 0;
@@ -321,28 +321,32 @@ img {
 
 }
 
+.icons-list {
+    width: 40px;
+    height: 40px;
+}
+
 .elipse {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    padding: 10px;
-    cursor: pointer;
-
-    --color: #4D5AE5;
-    --size: 40px;
-
+    width: 100%;
+    height: 100%;
     background-color: var(--color);
-
-    width: var(--size);
-    height: var(--size);
+    --color: #4D5AE5;
     border-radius: 50%;
-
 }
 
-.icon .facebook {
-    width: 40px;
-    height: 40px;
+.elipse-inside {
+fill: #F4F4FD;
+}
+
+.icon-facebook:hover {
+    background-color: #404bbf;
+
+}
+.icon-facebook:focus {
+
 }
 
 .team-one-head {
