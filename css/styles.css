@@ -327,7 +327,7 @@ img {
 
 }
 
-.elipse {
+.elipse-team {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -343,13 +343,13 @@ img {
     fill: #F4F4FD;
 }
 
-.elipse:hover {
-    background-color: #31d0aa;
+.elipse-team:hover {
+    background-color: #404bbf;
 
 }
 
-.elipse:focus {
-    background-color: #31d0aa;
+.elipse-team:focus {
+    background-color: #404bbf;
 }
 
 .team-one-head {
@@ -360,38 +360,6 @@ img {
 .team-text {
     text-align: center;
 }
-
-
-
-
-/* .first {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.first:hover {
-    color: #404bbf;
-}
-
-.first:focus {
-    color: #404bbf;
-}
-
-.mail {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.mail:hover {
-    color: red;
-}
-
-.mail:focus {
-    color: #404bbf;
-} */
-
 
 .portfolio {
     display: flex;
@@ -550,4 +518,23 @@ img {
     display: flex;
     gap: 16px;
 
+}
+.elipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color);
+    --color: #4D5AE5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.elipse:hover {
+    background-color: #31d0aa;
+
+}
+
+.elipse:focus {
+    background-color: #31d0aa;
 }
