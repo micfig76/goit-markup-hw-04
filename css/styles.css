@@ -406,7 +406,7 @@ img {
     letter-spacing: 0.02em;
 
     position: absolute;
-    top: 40px;
+    top: 0;
     font-size: 16px;
     color: #F4F4FD;
     padding: 40px 32px;
@@ -444,11 +444,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 20px 0;
-   
-    top: 40px;
-    height: 100%;
-    width: 100%;
-
 }
 
 
@@ -466,10 +461,12 @@ img {
     display: flex;
     align-items: baseline;
 }
+
 .logo-container {
     margin-right: 120px;
 
 }
+
 .bottom-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -523,6 +520,7 @@ img {
     gap: 16px;
 
 }
+
 .elipse {
     display: flex;
     justify-content: center;
@@ -534,6 +532,7 @@ img {
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .elipse:hover {
     background-color: #31d0aa;
 
