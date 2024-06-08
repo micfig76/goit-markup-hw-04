@@ -444,7 +444,7 @@ img {
     background-color: #4D5AE5;
     height: 100%;
     width: 100%;
-    transform: translateY(0%);
+    transform: translateY(100%);
     transition: transform 250ms cubic-bezier(04., 0, 0.2, 1);
 
 }
@@ -461,9 +461,9 @@ img {
         0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-/* .portfolio-list:hover .portfolio-text {
+.portfolio-list:hover .portfolio-text {
     transform: translateY(0%);
-} */
+} 
 
 
 
