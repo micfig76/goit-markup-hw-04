@@ -344,12 +344,12 @@ img {
 }
 
 .elipse:hover {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 
 }
 
 .elipse:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 
 .team-one-head {
@@ -549,5 +549,5 @@ img {
 .socials {
     display: flex;
     gap: 16px;
-    
+
 }
