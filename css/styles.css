@@ -444,7 +444,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 20px 0;
+<<<<<<< HEAD
 
+=======
+   
+    height: 100%;
+    width: 100%;
+>>>>>>> 8528748c24982df1f78a0d1fe16269a1b8ebd9d4
 }
 
 
