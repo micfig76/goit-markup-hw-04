@@ -331,6 +331,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+   
     width: 100%;
     height: 100%;
     background-color: var(--color);
@@ -397,8 +398,6 @@ img {
     width: 360px;
     position: relative;
     overflow: hidden;
-
-
 }
 
 .portfolio-text {
@@ -444,13 +443,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 20px 0;
-<<<<<<< HEAD
-
-=======
-   
     height: 100%;
     width: 100%;
->>>>>>> 8528748c24982df1f78a0d1fe16269a1b8ebd9d4
+
 }
 
 
@@ -509,11 +504,6 @@ img {
 }
 
 .bottom-socials-head {
-    /* display: flex;
-    justify-content: start;
-    padding-bottom: 32px;
-    color: #F4F4FD; */
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
