@@ -512,12 +512,6 @@ img {
     margin-bottom: 16px;
 }
 
-.socials {
-    display: flex;
-    gap: 16px;
-
-}
-
 .elipse {
     display: flex;
     justify-content: center;
