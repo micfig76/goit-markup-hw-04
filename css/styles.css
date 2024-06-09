@@ -29,7 +29,6 @@ img {
 
 .top-menu-head {
     display: flex;
-    background-color: #E7E9FC;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -83,7 +82,7 @@ img {
     display: flex;
     gap: 40px;
     list-style-type: none;
-
+align-items: center;
 }
 
 
@@ -94,6 +93,8 @@ img {
 }
 
 .item-one {
+    display:inline-block;
+
     position: relative;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -121,6 +122,7 @@ img {
 
 .contact-details {
     display: flex;
+    align-items: center;
     font-weight: 400;
     font-style: normal;
 }
@@ -391,19 +393,24 @@ img {
 }
 
 .portfolio-list-details {
+
+
+    border-top: none;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-card {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     width: 360px;
-    position: relative;
-    overflow: hidden;
 }
 
 .portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-
-    position: absolute;
     top: 0;
     font-size: 16px;
     color: #F4F4FD;
@@ -435,15 +442,14 @@ img {
 
 .portfolio-head-image {
     margin-bottom: 8px;
-    padding: 20px 0;
+
 }
 
 .portfolio-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 20px 0;
-    height: 100%;
-    width: 100%;
+
+
 
 }
 
@@ -458,7 +464,8 @@ img {
 
 
 .bottom-container {
-
+    width: 1158px;
+    margin: 0 auto;
     display: flex;
     align-items: baseline;
 }
@@ -500,6 +507,7 @@ img {
 .bottom-socials {
     display: flex;
     align-items: flex-start;
+    gap: 16px;
 }
 
 .bottom-socials-head {
