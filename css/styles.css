@@ -80,6 +80,7 @@ img {
 
 .top-menu-list {
     display: flex;
+    align-items: center;
     gap: 40px;
     list-style-type: none;
 
@@ -93,6 +94,7 @@ img {
 }
 
 .item-one {
+    display: inline-block;
     position: relative;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -120,6 +122,7 @@ img {
 
 .contact-details {
     display: flex;
+    align-items: center;
     font-weight: 400;
     font-style: normal;
 }
@@ -390,10 +393,7 @@ img {
 }
 
 .portfolio-list-details {
-    /* display: inline-block; */
-
     border-top: none;
-
     position: relative;
     overflow: hidden;
 }
@@ -458,8 +458,8 @@ img {
 
 
 .bottom-container {
-width: 1158px;
-margin: 0 auto;
+    width: 1158px;
+    margin: 0 auto;
     display: flex;
     align-items: baseline;
 }
