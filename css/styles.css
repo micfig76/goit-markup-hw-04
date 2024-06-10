@@ -390,7 +390,7 @@ img {
 }
 
 .portfolio-list-details {
-    display: inline-block;
+    /* display: inline-block; */
 
     border-top: none;
 
